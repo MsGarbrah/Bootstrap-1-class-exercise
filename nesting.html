@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>nesting columns</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 nestingcol">
+                the bigger column
+
+                <div class="row">
+                    <div class="col-md-6 smallcol">
+                        nested col
+                    </div>
+    
+                    <div class="col-md-6 smallcol2">
+                        second small column
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col-md-6 nestingcol2">
+                col 6
+            </div>    
+        </div>
+        <hr>
+        <div class="row justify-content-center">
+            <!-- <div class="col-md-2"></div> -->
+
+            <div class="col-md-8 col1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi hic sapiente consequatur, suscipit, earum iste ipsam deleniti ratione incidunt facilis possimus neque numquam quas maiores animi. Quisquam soluta omnis saepe.</p>
+            </div>
+
+            <!-- <div class="col-md-2"></div> -->
+        </div>
+
+
+
+
+
+    </div>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
